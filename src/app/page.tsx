@@ -1,9 +1,9 @@
-import Image from "next/image";
+import CameraAudioCapture from './CameraAudioCapture';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Astra goes here.
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <CameraAudioCapture />
     </main>
   );
 }
